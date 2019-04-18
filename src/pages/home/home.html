@@ -1,4 +1,4 @@
-<ion-header>
+<!-- <ion-header>
   <ion-navbar>
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
@@ -15,4 +15,38 @@
   </p>
 
   <button ion-button secondary menuToggle>Toggle Menu</button>
+</ion-content> -->
+
+<ion-header>
+  <ion-navbar color="logo">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page1" style="background-color:#000000;">
+  <img src="assets/img/logo3.png" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />
+  <h1 id="home-heading1" style="color:#FDFDFD;font-style:italic;text-align:center;">
+    Login
+  </h1>
+  <form id="home-form1">
+    <ion-item id="home-input1">
+      <ion-label stacked>
+        Username
+      </ion-label>
+      <ion-input type="text" placeholder="username" name="username"></ion-input>
+    </ion-item>
+    <ion-item id="home-input2">
+      <ion-label stacked>
+        Password
+      </ion-label>
+      <ion-input type="password" placeholder="password" name="password"></ion-input>
+    </ion-item>
+    <button id="home-button1" ion-button color="logo" block style="font-weight:500;color:#000000;border-radius:10px 10px 10px 10px;">
+      LOGIN
+    </button>
+  </form>
 </ion-content>
