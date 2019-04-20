@@ -29,10 +29,10 @@
   </ion-navbar>
 </ion-header>
 <ion-content padding id="page6" style="background-color:#000000;">
-  <img src="assets/img/hSUlsImhSAOcNOY1EKLA_logo3.png" style="display:block;width:100%;height:auto;margin-left:0;margin-right:0;" />
-  <button id="rECIPESOFTHEDAY-button5" ion-button color="light" block icon-right style="font-weight:lighter;text-align:left;border-radius:7px 7px 7px 7px;">
+  <!-- <img src="assets/img/hSUlsImhSAOcNOY1EKLA_logo3.png" style="display:block;width:100%;height:auto;margin-left:0;margin-right:0;" /> -->
+  <button id="rECIPESOFTHEDAY-button5" ion-button color="light" block icon-right style="font-weight:lighter;text-align:left;border-radius:7px 7px 7px 7px;" (click)="goToSuggestions()">
     Enter your choice
-    <ion-icon name="arrow-forward"></ion-icon>
+    <ion-icon name="arrow-round-forward" style="align-items: flex-end"></ion-icon>
   </button>
   <h5 id="rECIPESOFTHEDAY-heading3" style="color:#FDFDFD;font-style:italic;text-align:center;">
     RECIPES OF THE DAY
@@ -51,25 +51,26 @@
     <img src="../../assets/img/biriyani.jpg" style="width:100%;height: 50%;">
   
     <ion-card-content>
-      <p>Taste your buds</p>
+     
     </ion-card-content>
   
     <ion-row>
       <ion-col>
-        <button ion-button icon-start clear small color="energized" >
-          <ion-icon name="create"></ion-icon>
+        <button ion-button icon-start clear small color="logo" >
+          <ion-icon name="eye"></ion-icon>
           
         </button>
       </ion-col>
       <ion-col>
-        <button ion-button icon-start clear small color="red" >
-          <ion-icon name="trash"></ion-icon>
+        <button ion-button icon-start clear small color="logo" >
+          <ion-icon name="list-box"></ion-icon>
          
         </button>
       </ion-col>
       <ion-col>
-        <button ion-button icon-start clear small >
-          View Packages
+        <button ion-button icon-start clear small color="logo" >
+          <ion-icon name="heart"></ion-icon>
+         
         </button>
       </ion-col>
       <!-- <ion-col align-self-center text-center>
