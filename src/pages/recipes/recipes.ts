@@ -1,3 +1,4 @@
+import { SuggestionsPage } from './../suggestions/suggestions';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
@@ -20,6 +21,10 @@ export class RecipesPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad RecipesPage');
+  }
+
+  goToSuggestions(){
+    this.navCtrl.push(SuggestionsPage)
   }
 
 }
