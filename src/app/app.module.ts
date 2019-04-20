@@ -1,4 +1,5 @@
-import { DayRecipePage } from './../pages/day-recipe/day-recipe';
+import { SuggestionsPage } from './../pages/suggestions/suggestions';
+import { HereAreSomeSuggestionsPage } from './../pages/here-are-some-suggestions/here-are-some-suggestions';
 import { FavouritesPage } from './../pages/favourites/favourites';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
@@ -11,13 +12,18 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { HttpClientModule } from '@angular/common/http'; 
 import { REcipesofthedayPage } from '../pages/r-ecipesoftheday/r-ecipesoftheday';
+import { RecipesPage } from '../pages/recipes/recipes';
+import { RegisterPage } from '../pages/register/register';
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     FavouritesPage,
     REcipesofthedayPage,
-    DayRecipePage
+    HereAreSomeSuggestionsPage,
+    RecipesPage,
+    RegisterPage,
+    SuggestionsPage
     
   ],
   imports: [
@@ -31,7 +37,10 @@ import { REcipesofthedayPage } from '../pages/r-ecipesoftheday/r-ecipesoftheday'
     HomePage,
     FavouritesPage,
     REcipesofthedayPage,
-    DayRecipePage
+    HereAreSomeSuggestionsPage,
+    RecipesPage,
+    RegisterPage,
+    SuggestionsPage
     
   ],
   providers: [

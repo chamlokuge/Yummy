@@ -1,4 +1,4 @@
-import { DayRecipePage } from './../day-recipe/day-recipe';
+import { REcipesofthedayPage } from './../r-ecipesoftheday/r-ecipesoftheday';
 import { Component } from '@angular/core';
 import { NavController,MenuController,Alert,NavParams,AlertController,ToastController } from 'ionic-angular';
 // import { AuthProvider } from '../../providers/auth/auth';
@@ -49,11 +49,11 @@ export class HomePage {
   }
 
   ForgotPassword(){
-    this.navCtrl.push(DayRecipePage);
+    this.navCtrl.push(REcipesofthedayPage);
   }
   
   login(){
-    this.navCtrl.push(DayRecipePage)
+    this.navCtrl.push(REcipesofthedayPage)
   }
 
 }

@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
- * Generated class for the DayRecipePage page.
+ * Generated class for the SuggestionsPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -10,16 +10,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-day-recipe',
-  templateUrl: 'day-recipe.html',
+  selector: 'page-suggestions',
+  templateUrl: 'suggestions.html',
 })
-export class DayRecipePage {
+export class SuggestionsPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad DayRecipePage');
+    console.log('ionViewDidLoad SuggestionsPage');
   }
 
 }

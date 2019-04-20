@@ -1,3 +1,4 @@
+import { SuggestionsPage } from './../pages/suggestions/suggestions';
 import { FavouritesPage } from './../pages/favourites/favourites';
 import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
@@ -5,6 +6,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
+import { RecipesPage } from '../pages/recipes/recipes';
+import { REcipesofthedayPage } from '../pages/r-ecipesoftheday/r-ecipesoftheday';
 
 
 @Component({
@@ -23,7 +26,10 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Home', component: HomePage },
+      { title: 'Recipes of the Day', component: REcipesofthedayPage },
+      { title: 'Recipes', component: RecipesPage },
       { title: 'Favourites', component: FavouritesPage },
+      { title: 'Suggestions', component: SuggestionsPage },
     ];
 
   }
