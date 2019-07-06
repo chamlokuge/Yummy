@@ -31,7 +31,7 @@ export class MyApp {
       { title: 'Favourites', component: FavouritesPage },
       { title: 'Suggestions', component: SuggestionsPage },
       { title: 'Recipes of the Day', component: REcipesofthedayPage },
-      { title: 'Tadah!! Your recipe', component: GetrecipepagePage}
+      
     ];
 
   }
