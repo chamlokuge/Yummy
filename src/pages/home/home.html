@@ -1,11 +1,11 @@
-<!-- <ion-header>
-  <ion-navbar>
+ <ion-header>
+  <ion-navbar color="logo">
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
     <ion-title>Home</ion-title>
   </ion-navbar>
-</ion-header>
+</ion-header> 
 
 <ion-content padding>
   <h3>Ionic Menu Starter</h3>
@@ -17,40 +17,37 @@
   <button ion-button secondary menuToggle>Toggle Menu</button>
 </ion-content> -->
 
-<ion-header>
-  <ion-navbar color="logo">
-    <button ion-button menuToggle>
-      <ion-icon name="menu"></ion-icon>
-    </button>
-    <ion-title>
-      Home
-    </ion-title>
-  </ion-navbar>
-</ion-header>
+
 <ion-content padding id="page1" style="background-color:#000000;">
-  <img src="assets/img/eq9eZARRisQ15657vR0w_logo3.png" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />
+  <img src="../../assets/img/eq9eZARRisQ15657vR0w_logo3.png" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />
   <h1 id="home-heading1" style="color:#FDFDFD;font-style:italic;text-align:center;">
     Login
   </h1>
+  <div class="login-box">
   <form id="home-form1">
-    <ion-item id="home-input1">
+    <ion-item id="home-input">
       <ion-label stacked>
         Username
       </ion-label>
       <ion-input type="text" placeholder="username" name="username"></ion-input>
     </ion-item>
     <div class="spacer" style="width:300px;height:6px;" id="home-spacer1"></div>
-    <ion-item id="home-input2">
+    <ion-item id="home-input">
       <ion-label stacked>
         Password
       </ion-label>
       <ion-input type="password" placeholder="password" name="password"></ion-input>
     </ion-item>
-    <button id="home-button1" ion-button color="logo" block style="font-weight:500;color:#000000;border-radius:10px 10px 10px 10px;">
+    <div class="spacer" style="width:300px;height:10px;" id="home-spacer1"></div>
+    &nbsp;
+    <button id="home-button1" ion-button color="logo" block style="font-weight:500;color:#000000;border-radius:10px 10px 10px 10px;" style="padding:0px 15px 0px 10px;" (click)="gotorecipes()">
       LOGIN
     </button>
-    <button id="home-button2" ion-button color="logo" block style="font-weight:300;color:#000000;border-radius:10px 10px 10px 10px;">
+    &nbsp;
+    <button id="home-button2" ion-button color="logo" block style="font-weight:300;color:#000000;border-radius:10px 10px 10px 10px;" style="padding:5px;">
       CREATE AN ACCOUNT
     </button>
+    &nbsp;
   </form>
+</div>
 </ion-content>

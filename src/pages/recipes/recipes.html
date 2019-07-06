@@ -6,7 +6,7 @@
 -->
 <ion-header>
 
-  <ion-navbar color="logo">
+  <ion-navbar color="logo" >
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
@@ -17,10 +17,18 @@
 
 
 <ion-content padding id="page5" style="background-color:#000000;">
-  <button id="recipes-button6" ion-button color="light" block icon-right style="font-weight:lighter;text-align:left;border-radius:7px 7px 7px 7px;">
-    Enter your choice
-    <ion-icon name="arrow-forward"></ion-icon>
-  </button>
+  <!-- <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+    <ion-list>
+      <ion-item *ngFor="let item of items">
+        {{ item }}
+      </ion-item>
+    </ion-list> -->
+    <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+    <ion-list>
+      <ion-item *ngFor="let item of items">
+        {{ item }}
+      </ion-item>
+    </ion-list>
 
     <ion-list>
       <ion-item>

@@ -1,3 +1,4 @@
+import { RecipesPage } from './../recipes/recipes';
 import { REcipesofthedayPage } from './../r-ecipesoftheday/r-ecipesoftheday';
 import { Component } from '@angular/core';
 import { NavController,MenuController,Alert,NavParams,AlertController,ToastController } from 'ionic-angular';
@@ -54,6 +55,10 @@ export class HomePage {
   
   login(){
     this.navCtrl.push(REcipesofthedayPage)
+  }
+
+  gotorecipes(){
+    this.navCtrl.push(RecipesPage)
   }
 
 }
