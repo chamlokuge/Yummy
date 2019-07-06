@@ -1,3 +1,4 @@
+import { GetrecipepagePage } from './../pages/getrecipepage/getrecipepage';
 import { SuggestionsPage } from './../pages/suggestions/suggestions';
 import { HereAreSomeSuggestionsPage } from './../pages/here-are-some-suggestions/here-are-some-suggestions';
 import { FavouritesPage } from './../pages/favourites/favourites';
@@ -23,7 +24,8 @@ import { RegisterPage } from '../pages/register/register';
     HereAreSomeSuggestionsPage,
     RecipesPage,
     RegisterPage,
-    SuggestionsPage
+    SuggestionsPage,
+    GetrecipepagePage
     
   ],
   imports: [
@@ -40,7 +42,8 @@ import { RegisterPage } from '../pages/register/register';
     HereAreSomeSuggestionsPage,
     RecipesPage,
     RegisterPage,
-    SuggestionsPage
+    SuggestionsPage,
+    GetrecipepagePage
     
   ],
   providers: [

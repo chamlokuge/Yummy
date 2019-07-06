@@ -1,3 +1,4 @@
+import { GetrecipepagePage } from './../pages/getrecipepage/getrecipepage';
 import { SuggestionsPage } from './../pages/suggestions/suggestions';
 import { FavouritesPage } from './../pages/favourites/favourites';
 import { Component, ViewChild } from '@angular/core';
@@ -30,6 +31,7 @@ export class MyApp {
       { title: 'Favourites', component: FavouritesPage },
       { title: 'Suggestions', component: SuggestionsPage },
       { title: 'Recipes of the Day', component: REcipesofthedayPage },
+      { title: 'Tadah!! Your recipe', component: GetrecipepagePage}
     ];
 
   }
