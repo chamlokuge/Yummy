@@ -23,12 +23,13 @@
         {{ item }}
       </ion-item>
     </ion-list> -->
-    <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+    <!-- <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
     <ion-list>
       <ion-item *ngFor="let item of items">
         {{ item }}
       </ion-item>
-    </ion-list>
+    </ion-list> -->
+    <ion-searchbar placeholder="Search your recipes here" name="search" id="page-search1"></ion-searchbar>
 
     <ion-list>
       <ion-item>
@@ -59,6 +60,90 @@
             </ion-row>
       </ion-item>
     </ion-list>
+
+    <div class="spacer" style="width:300px;height:12px;" id="page-spacer1"></div>
+    <ion-item id="page-textarea1">
+      <ion-label>
+        Recommendations
+      </ion-label>
+      <ion-textarea placeholder=""></ion-textarea>
+    </ion-item>
+    <div class="spacer" style="width:300px;height:8px;" id="page-spacer2"></div>
+
+    <ion-list>
+        <ion-item>
+          <ion-thumbnail item-start>
+            <img src="../../assets/img/chicken-dum-biryani.jpg">
+          </ion-thumbnail>
+          <h2>Chicken Dum Briyani</h2>
+          <p>Non veg • Spicy</p>
+          
+          <ion-row>
+            <ion-col>
+              <button ion-button icon-start clear small color="danger">
+                <ion-icon name="heart-outline"></ion-icon>
+                
+              </button>
+            </ion-col>
+            <ion-col>
+              <button ion-button icon-start clear small color="logo" >
+                <ion-icon name="eye"></ion-icon>
+               
+              </button>
+              </ion-col>
+              </ion-row>
+        </ion-item>
+      </ion-list>
+
+      <ion-list>
+          <ion-item>
+            <ion-thumbnail item-start>
+              <img src="../../assets/img/chicken-biryani-pilau.jpg">
+            </ion-thumbnail>
+            <h2>Chicken Biryani Pilau</h2>
+            <p>Non veg • Spicy</p>
+            
+            <ion-row>
+              <ion-col>
+                <button ion-button icon-start clear small color="danger">
+                  <ion-icon name="heart-outline"></ion-icon>
+                  
+                </button>
+              </ion-col>
+              <ion-col>
+                <button ion-button icon-start clear small color="logo" >
+                  <ion-icon name="eye"></ion-icon>
+                 
+                </button>
+                </ion-col>
+                </ion-row>
+          </ion-item>
+        </ion-list>
+
+        <ion-list>
+            <ion-item>
+              <ion-thumbnail item-start>
+                <img src="../../assets/img/Murmudi-chicken-biriyani.jpg">
+              </ion-thumbnail>
+              <h2>Murmudi Chicken Briyani</h2>
+              <p>Non veg • Spicy</p>
+              
+              <ion-row>
+                <ion-col>
+                  <button ion-button icon-start clear small color="danger">
+                    <ion-icon name="heart-outline"></ion-icon>
+                    
+                  </button>
+                </ion-col>
+                <ion-col>
+                  <button ion-button icon-start clear small color="logo" >
+                    <ion-icon name="eye"></ion-icon>
+                   
+                  </button>
+                  </ion-col>
+                  </ion-row>
+            </ion-item>
+          </ion-list>
 
 </ion-content>
 
