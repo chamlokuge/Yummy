@@ -1,1 +1,6 @@
-### :point_right: This starter repo has moved to the [ionic-team/starters](https://github.com/ionic-team/starters/tree/master/ionic-angular/official/sidemenu) repo! :point_left:
+### Yummy  
+Taste your preferences!!  
+
+![Test Image 1](https://github.com/chamlokuge/Yummy/blob/master/yummyScreenshot.JPG)
+
+
